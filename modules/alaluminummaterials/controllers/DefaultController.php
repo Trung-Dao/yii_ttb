@@ -17,6 +17,10 @@ use yii\filters\AccessControl;
  */
 class DefaultController extends Controller
 {
+    public function actionTest() 
+    {
+        return 'Tesst github';
+    }
     /**
      * @inheritdoc
      */
